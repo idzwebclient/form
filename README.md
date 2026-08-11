@@ -53,5 +53,10 @@ Panduan ringkas untuk menambah borang lain tersedia dalam `forms/README.md`.
 npm run build
 npm run lint
 ```
-# form
-# form
+
+## Deploy ke Vercel
+
+Sambungkan repository ini kepada Vercel seperti biasa. `vercel.json` akan
+memilih build Nitro/Vercel secara automatik, manakala `npm run build` kekal
+sebagai build Sites/Cloudflare. Tiada Build Command atau Output Directory yang
+perlu diisi secara manual dalam dashboard Vercel.
