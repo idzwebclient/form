@@ -1,6 +1,7 @@
-# Qudani Branch Purchase Form
+# Qudani Forms
 
-Dashboard lokal untuk mengisi halaman pertama borang belian cawangan dan mencetak dokumen PDF dua halaman. Halaman kedua disertakan secara automatik dan tidak boleh diedit.
+Dashboard Next.js untuk mengisi, mencetak dan menyimpan borang rasmi Qudani
+Jewels sebagai PDF. Semua data draf disimpan pada peranti pengguna.
 
 ## Keperluan
 
@@ -56,7 +57,6 @@ npm run lint
 
 ## Deploy ke Vercel
 
-Sambungkan repository ini kepada Vercel seperti biasa. `vercel.json` akan
-memilih build Nitro/Vercel secara automatik, manakala `npm run build` kekal
-sebagai build Sites/Cloudflare. Tiada Build Command atau Output Directory yang
-perlu diisi secara manual dalam dashboard Vercel.
+Sambungkan repository ini kepada Vercel seperti biasa. Vercel akan mengesan
+Next.js secara automatik. Tiada Build Command atau Output Directory yang perlu
+diisi secara manual.
