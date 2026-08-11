@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { FORM_REGISTRY, type FormId } from "./registry";
 
 export default function FormTopbar({
@@ -32,14 +31,14 @@ export default function FormTopbar({
           <span className="form-menu-label">Menu borang</span>
           <nav className="form-menu" aria-label={`Menu borang. Borang semasa: ${currentForm.title}`}>
             {FORM_REGISTRY.map((form) => (
-              <Link
+              <a
                 className={form.id === currentFormId ? "form-menu-item active" : "form-menu-item"}
                 href={form.href}
                 aria-current={form.id === currentFormId ? "page" : undefined}
                 key={form.id}
               >
                 {form.menuLabel}
-              </Link>
+              </a>
             ))}
           </nav>
         </div>
