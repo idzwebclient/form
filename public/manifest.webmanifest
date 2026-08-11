@@ -1,0 +1,43 @@
+{
+  "id": "/",
+  "name": "Qudani Forms",
+  "short_name": "Qudani Forms",
+  "description": "Jana, simpan dan cetak borang rasmi Qudani Jewels.",
+  "lang": "ms",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ecece7",
+  "theme_color": "#121311",
+  "icons": [
+    {
+      "src": "/brand/qudani-logo-black.png",
+      "sizes": "4500x4500",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/brand/qudani-logo-black.png",
+      "sizes": "4500x4500",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Branch Purchase Form",
+      "short_name": "Branch Purchase",
+      "url": "/"
+    },
+    {
+      "name": "Reimbursement Claim Form",
+      "short_name": "Claim",
+      "url": "/claim-form"
+    },
+    {
+      "name": "Salary / Commission Advance Form",
+      "short_name": "Advance",
+      "url": "/advance-form"
+    }
+  ]
+}
