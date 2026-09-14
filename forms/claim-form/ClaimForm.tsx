@@ -274,9 +274,9 @@ function ClaimPage({ form, total, preview = false }: {
       </header>
 
       <section className="claim-document-meta">
-        <div><strong>NAMA</strong><strong>:</strong><span>{form.name.toUpperCase()}</span></div>
-        <div><strong>CAWANGAN</strong><strong>:</strong><span>{form.branch.toUpperCase()}</span></div>
-        <div><strong>TARIKH</strong><strong>:</strong><span>{displayDate(form.date)}</span></div>
+        <div><strong>NAMA</strong><b>:</b><span>{form.name.toUpperCase()}</span></div>
+        <div><strong>CAWANGAN</strong><b>:</b><span>{form.branch.toUpperCase()}</span></div>
+        <div><strong>TARIKH</strong><b>:</b><span>{displayDate(form.date)}</span></div>
       </section>
 
       <section className="claim-document-section">
